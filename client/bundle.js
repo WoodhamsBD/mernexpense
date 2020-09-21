@@ -32411,9 +32411,9 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(25);
 
-var _app = __webpack_require__(210);
+var _App = __webpack_require__(210);
 
-var _app2 = _interopRequireDefault(_app);
+var _App2 = _interopRequireDefault(_App);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -32421,7 +32421,7 @@ var Routes = exports.Routes = function Routes() {
   return _react2.default.createElement(
     _reactRouterDom.Switch,
     null,
-    _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _app2.default })
+    _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _App2.default })
   );
 };
 
